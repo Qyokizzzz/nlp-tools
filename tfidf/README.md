@@ -1,5 +1,6 @@
 # 调用方式
-```
+
+```Python
 HanLP.Config.ShowTermNature = False
 stopwords_trie = load_words('./dictionary/stopwords.txt')
 replaced = "【.*?】|\\(.*?\\)|（.*?）|[a-zA-Z0-8\\s,<>/?:;'\"\\[\\]{}()\\|~!@#$%^&*\\-_=+，。《》、？：；“”‘’｛｝【】（）…￥！—┄－「」→]+"    
